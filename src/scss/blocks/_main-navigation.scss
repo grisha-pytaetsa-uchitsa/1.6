@@ -1,0 +1,28 @@
+.main-navigation {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+    padding-left: 0;
+    white-space: nowrap;
+    overflow-x: hidden;
+  }
+  &__button {
+    height: 40px;
+    padding: 8px 16px;
+    font-family: "TT Lakes", "Arial", sans-serif;
+    font-size: $font-size-m;
+    font-weight: $font-weight-medium;
+    color: #7e7e82;
+    &--active {
+      background-color: #fff;
+      border: 2px solid #b8ffec;
+      border-radius: 6px;
+    }
+  }
+
+  @media (min-width: $screen-l) {
+    margin-top: 8px;
+  }
+}

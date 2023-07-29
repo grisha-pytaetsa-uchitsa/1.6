@@ -1,0 +1,13 @@
+.main-button-more,
+.main-button-hide {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+
+  .main-button__span {
+    padding-right: 8px;
+    font-family: $font-family;
+    font-size: $font-size-m;
+    font-weight: $font-weight-medium;
+  }
+}

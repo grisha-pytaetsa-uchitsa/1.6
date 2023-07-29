@@ -1,0 +1,145 @@
+.slider-container {
+  @media (min-width: $screen-m) {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  @media (min-width: $screen-l) {
+    width: 100%;
+    max-width: 1200px;
+  }
+}
+
+.slider {
+  overflow-x: hidden;
+  &__image {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    height: 72px;
+    padding: 0 16px;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    background-color: #fff;
+  }
+
+  &__button {
+    width: 40px;
+    height: 40px;
+    background-image: url(/img/icons/dropdown.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid red;
+    border-radius: 50%;
+  }
+  @media (min-width: $screen-m) {
+    &__wrapper {
+      display: flex;
+      gap: 16px;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+    &__image {
+      width: 224px;
+    }
+  }
+  @media (min-width: $screen-l) {
+    &__image {
+      width: 240px;
+    }
+  }
+  .swiper-slide {
+    width: auto;
+  }
+  .swiper-pagination {
+    position: relative;
+    margin-top: 16px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #b5b6bc;
+  }
+}
+
+.slider-title-container {
+  font-size: $font-size-m;
+  font-weight: $font-weight-regular;
+  color: $color-text__gray;
+  text-transform: uppercase;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  @media (min-width: $screen-m) {
+    margin: 24px 0;
+  }
+  border-top: 1px solid #d9fff5;
+  background-image: linear-gradient(to right, #f8f8f8 0%, #ffffff 98.61%);
+}
+
+.card-slider {
+  overflow-x: hidden;
+  &__image {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    height: 160px;
+    padding: 16px;
+    border: 1px solid $color-border__light-gray;
+    border-radius: 6px;
+    background-color: $color-background__white;
+  }
+
+  &__text {
+    font-size: $font-size-m;
+    font-weight: $font-weight-medium;
+  }
+
+  @media (min-width: $screen-m) {
+    &__wrapper {
+      display: flex;
+      gap: 16px;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+    &__image {
+      width: 224px;
+    }
+  }
+  @media (min-width: $screen-l) {
+    &__image {
+      width: 240px;
+    }
+  }
+
+  .slider__button {
+    align-self: flex-end;
+  }
+
+  .swiper-slide {
+    width: auto;
+  }
+
+  .swiper-pagination {
+    position: relative;
+    margin-top: 16px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #b5b6bc;
+  }
+}
+
+.main-button-more--slides,
+.main-button-more--repair-slides {
+  display: none;
+  @media (min-width: $screen-m) {
+    display: block;
+  }
+}

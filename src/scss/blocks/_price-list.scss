@@ -1,0 +1,119 @@
+.price-list {
+  overflow-x: hidden;
+  &-wrapper {
+    .price-list-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 260px;
+      height: 200px;
+      padding: 16px;
+      border-radius: 15px;
+      background-color: #fff;
+      &__item {
+        margin-bottom: 16px;
+      }
+      &__item:last-child {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 0;
+      }
+
+      &__item:nth-child(6) {
+        display: none;
+      }
+      &__title {
+        color: #7e7e82;
+      }
+    }
+    .price-list__title {
+      display: none;
+    }
+  }
+  @media (min-width: $screen-m) {
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      .price-list-content {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 64px;
+        border-radius: 0;
+        .price-list-content__item--service:nth-child(2) {
+          width: 320px;
+        }
+      }
+      .price-list__title {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px;
+        color: #7e7e82;
+        &-text--service {
+          margin-right: 80px;
+        }
+        &-text--duration {
+          margin-left: -60px;
+        }
+      }
+      .price-list-content__title {
+        display: none;
+      }
+      .price-list-content__item:nth-child(6) {
+        align-items: flex-start;
+      }
+
+      .price-list-content__item {
+        margin: 0;
+      }
+      .price-list-content__item:last-child {
+        .order-button {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+  @media (min-width: $screen-l) {
+    &-wrapper {
+      width: 1010px;
+      .price-list__title {
+        &-text--service {
+          margin-right: 130px;
+        }
+        &-text--duration {
+          margin-left: -40px;
+        }
+      }
+      .price-list-content__item:last-child {
+        .order-button {
+          margin-left: 70px;
+        }
+      }
+    }
+  }
+
+  .swiper-pagination {
+    position: relative;
+    margin: 16px 0;
+  }
+
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #b5b6bc;
+  }
+}
+
+.price__text {
+  @media (min-width: $screen-m) {
+    padding: 24px 0;
+    width: 420px;
+  }
+}
+
+.button__price {
+  display: flex;
+  align-items: center;
+  font-weight: $font-weight-medium;
+}

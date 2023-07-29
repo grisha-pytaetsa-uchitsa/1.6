@@ -1,0 +1,23 @@
+.order-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: $color-text__white;
+  font-family: $font-family;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-bold;
+  text-transform: uppercase;
+  height: 32px;
+  border-radius: 20px;
+  background-color: $color-text__pink;
+  background-repeat: no-repeat;
+  background-position: center;
+  &--order {
+    width: 119px;
+    padding: 12px 4px;
+  }
+  &--submit {
+    width: 136px;
+    padding: 8px 4px;
+  }
+}

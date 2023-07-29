@@ -1,0 +1,37 @@
+.menu-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: $color-text__pink;
+  background-repeat: no-repeat;
+  background-position: center;
+  &--menu {
+    background-image: url("/img/icons/menu.svg");
+  }
+  &--phone {
+    background-image: url("/img/icons/phone.svg");
+  }
+  &--message {
+    background-image: url("/img/icons/chat.svg");
+  }
+  &--communicate {
+    background-image: url("/img/icons/community.svg");
+  }
+  &--application {
+    background-image: url("/img/icons/Group.svg");
+  }
+  &--status {
+    background-image: url("/img/icons/icon.svg");
+  }
+  &--closer {
+    background-image: url("/img/icons/burger-closer.svg");
+  }
+  &--search {
+    background-image: url("/img/icons/search.svg");
+  }
+}
+
+.menu-button-label {
+  padding-right: 5px;
+  cursor: pointer;
+}

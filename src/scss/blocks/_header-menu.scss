@@ -1,0 +1,38 @@
+.header-menu {
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    background-color: $color-background__white;
+  }
+  &__logo {
+    height: 52px;
+  }
+  &__deliver-first {
+    display: none;
+    @media (min-width: $screen-m) {
+      display: block;
+    }
+  }
+  .menu-button--phone,
+  .menu-button--message,
+  .menu-button--communicate {
+    display: none;
+    @media (min-width: $screen-m) {
+      display: block;
+    }
+  }
+  @media (min-width: $screen-m) {
+    &__logo {
+      margin-right: 250px;
+    }
+  }
+  @media (min-width: $screen-l) {
+    display: none;
+  }
+}
