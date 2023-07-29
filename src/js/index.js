@@ -1,5 +1,5 @@
-import "../scss/style.scss";
-
-import "./constants.js";
-import "./modal.js";
-import "./moreLess.js";
+import '../scss/style.scss'
+import './swiper-bundle.min.js'
+import './constants.js'
+import './modal.js'
+import './moreLess.js'
