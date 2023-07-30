@@ -6,28 +6,28 @@
   background-repeat: no-repeat;
   background-position: center;
   &--menu {
-    background-image: url("/img/icons/menu.svg");
+    background-image: url('../img/icons/menu.svg');
   }
   &--phone {
-    background-image: url("/img/icons/phone.svg");
+    background-image: url('../img/icons/phone.svg');
   }
   &--message {
-    background-image: url("/img/icons/chat.svg");
+    background-image: url('../img/icons/chat.svg');
   }
   &--communicate {
-    background-image: url("/img/icons/community.svg");
+    background-image: url('../img/icons/community.svg');
   }
   &--application {
-    background-image: url("/img/icons/Group.svg");
+    background-image: url('../img/icons/Group.svg');
   }
   &--status {
-    background-image: url("/img/icons/icon.svg");
+    background-image: url('../img/icons/icon.svg');
   }
   &--closer {
-    background-image: url("/img/icons/burger-closer.svg");
+    background-image: url('../img/icons/burger-closer.svg');
   }
   &--search {
-    background-image: url("/img/icons/search.svg");
+    background-image: url('../img/icons/search.svg');
   }
 }
 
