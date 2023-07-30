@@ -713,21 +713,21 @@ body {
   background-repeat: no-repeat;
   background-position: center; }
   .menu-button--menu {
-    background-image: url("/img/icons/menu.svg"); }
+    background-image: url(./static/menu.svg); }
   .menu-button--phone {
-    background-image: url("/img/icons/phone.svg"); }
+    background-image: url(./static/phone.svg); }
   .menu-button--message {
-    background-image: url("/img/icons/chat.svg"); }
+    background-image: url(./static/chat.svg); }
   .menu-button--communicate {
-    background-image: url("/img/icons/community.svg"); }
+    background-image: url(./static/community.svg); }
   .menu-button--application {
-    background-image: url("/img/icons/Group.svg"); }
+    background-image: url(./static/Group.svg); }
   .menu-button--status {
-    background-image: url("/img/icons/icon.svg"); }
+    background-image: url(./static/icon.svg); }
   .menu-button--closer {
-    background-image: url("/img/icons/burger-closer.svg"); }
+    background-image: url(./static/burger-closer.svg); }
   .menu-button--search {
-    background-image: url("/img/icons/search.svg"); }
+    background-image: url(./static/search.svg); }
 
 .menu-button-label {
   padding-right: 5px;
@@ -861,7 +861,7 @@ body {
   .slider__button {
     width: 40px;
     height: 40px;
-    background-image: url(/img/icons/dropdown.svg);
+    background-image: url(./static/dropdown.svg);
     background-position: center;
     background-repeat: no-repeat;
     border: 2px solid red;
