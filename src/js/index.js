@@ -1,5 +1,6 @@
+import 'swiper/swiper.scss'
+import 'swiper/modules/pagination.scss'
 import '../scss/style.scss'
-import './swiper-bundle.min.js'
 import './constants.js'
 import './modal.js'
 import './moreLess.js'
